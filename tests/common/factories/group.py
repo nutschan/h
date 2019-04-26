@@ -45,7 +45,7 @@ class OpenGroup(Group):
 
 
 class RestrictedGroup(Group):
-    name = factory.Sequence(lambda n: "Test Restricted Group {n}".format(n=str(n)))
+    name = factory.Sequence(lambda n: "Test Restricted Grp {n}".format(n=str(n)))
 
     joinable_by = None
     readable_by = ReadableBy.world
